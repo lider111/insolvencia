@@ -17,12 +17,13 @@ header {
     
 }
     h1  {
-        display: flex;
+        
         justify-items: center;
+        align-items:center;
         font-family: 'Open Sans', sans-serif;
         font-size:3rem;
         line-height:  2.6rem;
-        color: #c6E0f4;;
+        color: #c6E0f4;
      
        
         
@@ -36,6 +37,13 @@ h2 {
         line-height:  2.6rem;
         color: #c6E0f4;;
 
+}
+h3 {
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 2rem;
+    line-height:  2rem;
+    color: #0060fc;
+    text-align: center;
 }
 nav {
     width:inherit;
@@ -54,14 +62,21 @@ ul  {
 }
 li {
     font-family: inherit;
-    font-size: 1.3rem;
+    font-size: 1,6;
     padding-top: 2rem;
    
    
 
 }
+p {
+    font-family: 'Open Sans', sans-serif ;
+    line-height: 1 rem;
+    text-align: justify;
+    color: #0240ea;
+}
 a {
     color:#c6E0f4;
+    text-decoration: none;
 }
 figure {
     position: relative;
@@ -72,7 +87,7 @@ figure {
 }
 img {
     position: relative;
-    border: 0 auto;
+    
     
 }
 .header_icon_up {
@@ -81,6 +96,10 @@ img {
 .header_img_container {
     width:inherit;
     height: 150px;
+    
+}
+.header_icon_up_img {
+    position: fixed;
 }
 .main_section_hero {
     display: flex;
@@ -94,7 +113,7 @@ img {
 .main_img {
     width: inherit;
     height: inherit;
-    background-image: url(../imagenes/preocupacion_reducida.jpg);
+    background-color: #0240ea;
      background-position: center;
      background-attachment: fixed;
      background-size: cover;
@@ -180,4 +199,136 @@ img {
     justify-content:center;
     align-items: baseline;
 }
+section {
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tarjeta {
+    
+    width:inherit;
+    height:inherit;
+}
+.tarjeta_fig {
+    width:100%;
+    height: inherit;
+}
+.service_title {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height:  2 rem;
+    color: #0060fc;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.accordion {
+    background-color: #0060fc;
+    color: #c6E0f4;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: solid 1px black;
+    outline: none;
+    transition: 0.4s;
+    padding-top:1rem;
+}
+.active, .accordion:hover {
+    background-color: #0060fc;
+}
+.panel {
+    padding: 0 15px;
+    background-color: #02b4ea;
+    display: none;
+    overflow: auto;
+}
+.valores {
+    width: inherit;
+    height: inherit;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.valores_tarjeta1 {
+    padding-top: 3rem;
+    width:inherit;
+    height: 213px;
+    
+  
+    
+}
+.valores_tarjeta2 {
+    padding-top: 3rem;
+    width:inherit;
+    height: 213px;
+    
+    
+}
 
+.valores_tarjeta3 {
+    padding-top: 3rem;
+    width:inherit;
+    height: 213px;
+    
+    
+}
+
+
+
+
+
+
+
+.valores_fig {
+    height: 100%;
+}
+.valores_title {
+    color: black;
+}
+.valores_Content {
+    padding: 1rem 10%;
+    color: black;
+}
+.contacto {
+    width: 100%;
+    height:610px;
+    min-width: 320px;
+    margin:auto;
+}
+.form {
+    padding-top: 9rem;
+    width:100%;
+}
+.location {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.location_title {
+    text-align: center;
+    color: #0060fc;
+    padding-top: 10px;
+    
+}
+.location_text {
+    padding-top: 1rem;
+    text-align: center;
+
+}
+.location_text_color {
+    color: black;
+    text-align: center;
+}

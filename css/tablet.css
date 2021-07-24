@@ -1,0 +1,19 @@
+@media (min-width:321px);
+
+header {
+    flex-direction:row;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    
+    display: flex;
+    align-items: flex-start;
+}
+.
+
+
+
+
+

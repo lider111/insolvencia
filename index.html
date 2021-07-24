@@ -8,6 +8,9 @@
     <meta name="robots" content="index,follow" />
     <title>Insolvencia</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:321px)" />
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:700px)" />
+
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
     <link href = "https: //fonts.googleapis.com/css2? family = Open + Sans: wght @ 600 & display = swap "rel =" stylesheet ">
@@ -21,20 +24,16 @@
         <nav>
             <ul>
                 <li>
-                    <a href="http://">QUIENES SOMOS</a>
+                    <a href="#servicios">SERVICIOS</a>
                 </li>
                 <li>
-                    <a href="http://">SERVICIOS</a>
+                    <a href="#trabajamos"> VALORES</a>
                 </li>
                 <li>
-                    <a href="http://"> COMO TRABAJAMOS</a>
-                </li>
-                <li>
-                    <a href="http://">CONTACTANOS</a>
+                    <a href="#contactamos">CONTACTANOS</a>
                 </li>
             </ul>
-            <a class="header_icon_up" href="#">
-                <figure class="header_img_container"><img class="header_icon_up_img" src="Imagenes/flecha-hacia-arriba.svg" alt="Flecha Arriba" width="40px" height="40px"></figure></a>
+            
         </nav>
        
       
@@ -42,23 +41,136 @@
     <main>
         <section class="main_section_hero">
             <div class="main_img">
-                <h1 class="main_text">TIENES PROBLEMAS FINANCIEROS</h1>
-                <h2 class="main_text_sol"> AQUI TE ORIENTAMOS</h2>
-                <div class="main_container_box">
+                <div class="main_text_container">      
+                    <h1 class="main_text">TIENES PROBLEMAS FINANCIEROS</h1>
+                    <h2 class="main_text_sol"> AQUI TE ORIENTAMOS</h2>
+                    <div class="main_container_box">
                     <div class="box">Saber Mas</div>
+                    </div>
                 </div>
-
             </div>
             
         </section>
-        <section>
-
+        <section id="servicios" class="service">
+            <div class="tarjeta">
+                <figure class="tarjeta_fig">   
+                    <img class="tarjeta_img" src="imagenes/persona.jpg" alt="" width="100%" height="320px">
+                </figure>
+                <h3 class="service_title">Insolvencia Persona Natural No Comerciante</h3>
+                <button class="accordion">Descripcion</button>
+                <div class="panel"> 
+                    <p> La persona natural que no se encuentra inscrita en el registro mercantil, al momento de tener 2 o mas obligaciones con una mora superior a 90 dias, se encuentra legitimada para solicitar este proceso</p>
+                </div>
+                <button class="accordion"> Autoridad</button>
+                <div class="panel">
+                <p> Se presenta ante el Notario ó el Centro de Conciliación certificado por el Ministerio</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <figure class="tarjeta_fig">   
+                    <img class="tarjeta_img" src="Imagenes/persona_comerciante.jpg" alt="" width="100%" height="320px">
+                </figure>       
+                <h3 class="service_title">Insolvencia Persona Natural  Comerciante</h3>
+                <button class="accordion">Descripcion</button>
+                <div class="panel"> 
+                    <p> La persona natural inscrita en el registro mercantil, al momento de tener 2 o mas obligaciones con una mora superior a 90 dias, se encuentra legitimada para solicitar este proceso</p>
+                </div>
+                <button class="accordion"> Autoridad</button>
+                <div class="panel">
+                    <p> Se presenta ante Juez Civil del Circuito del domicilio del comerciante</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <figure class="tarjeta_fig">     
+                    <img class="tarjeta_img" src="Imagenes/empresas1.jpg" alt="" width="100%" height="320px">
+                </figure>   
+                <h3 class="service_title">Insolvencia  de Persona Juridica</h3>
+                <button class="accordion">Descripcion</button>
+                <div class="panel"> 
+                    <p> La persona juridica inscrita en el registro mercantil, al momento de tener 2 o mas obligaciones con una mora superior a 90 dias, se encuentra legitimada para solicitar este proceso</p>
+                </div>
+                <button class="accordion"> Autoridad</button>
+                <div class="panel">
+                    <p> Se presenta ante la Superintendencia de Sociedades</p>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <figure class="tarjeta_fig">   
+                    <img class="tarjeta_img" src="Imagenes/liquidacion.jpg" alt="" width="100%" height="320px">
+                </figure>   
+                <h3 class="service_title">Liquidacion Judicial</h3>
+                <button class="accordion">Descripcion</button>
+                <div class="panel"> 
+                    <p> Se realizan los tramites de disolución de la persona juridica y liquidación del patrimonio de la empresa</p>
+                </div>
+                <button class="accordion"> Autoridad</button>
+                <div class="panel">
+                    <p> Se presenta ante la Superintendencia de Sociedades</p>
+                </div>
+            </div>           
         </section>
+        <section id="trabajamos" class="Valores">   
+            <div class="valores_tarjeta1">
+                <figure class="valores_fig">
+                    <img src="https://img.icons8.com/ios-glyphs/90/000000/handshake.png"/>
+                </figure>
+                <h3 class="valores_title">Seriedad</h3>
+                <p class="valores_Content">Prestamos un Servicio de calidad cuidando los intereses de nuestros clientes</p>
+            </div>
+            <div class="valores_tarjeta2">
+                <figure class="valores_fig">
+                    <img src="https://img.icons8.com/wired/64/000000/ok-hand.png"/>
+                </figure>
+                <h3 class="valores_title">Cumplimiento</h3>
+                <p class="valores_Content">Prestamos un Servicio de calidad cuidando los intereses de nuestros clientes</p>
+            </div>
+            <div class="valores_tarjeta3">
+                <figure class="valores_fig">
+                    <img src="https://img.icons8.com/wired/50/000000/positive-dynamic.png"/>
+                </figure>
+                <h3 class="valores_title">Responsabilidad</h3>
+                <p class="valores_Content">Prestamos un Servicio de calidad cuidando los intereses de nuestros clientes</p>
+            </div>
+            
+        </section>
+        <section id="contactamos" class="contacto">
+            <div class="form">
+                <iframe width="100%" height= "300px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__Y_bZqBURDRCSjY4UFM3UkdJRlVRMjY5UUhFSE9QRi4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+            </div>
+            <div class="Location">
+                <h1 class="location_title">Insolvencia</h1>
+                <div class="location_text">  
+                <p class="location_text_color">Direccion: Calle 77 No 59-35 Centro Empresarial Las Americas 3 of 1006</p>
+                <p class="location_text_color"> Telefono: 3012370047</p>
+                <p class="location_text_color"> Correo: devergel@yahoo.com</p>
+                </div>
+            </div>
+        </section> 
+        <footer>
+            <a href="https://icons8.com/icon/48420/dinámica-positiva">Dinámica positiva icon by Icons8</a>
+        </footer> 
     </main>
-    <footer>
-        <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-    </footer>
+   
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 
     
 </body>
